@@ -22,7 +22,7 @@ namespace Treinoasd_a
             for(int i = 0; i < vet.Length; i++)
             {
 
-                Console.Write($"Digite o {i + 1}° Nome: "); // Digita os 20 numeros;
+                Console.Write($"Digite o {i + 1}° Numero: "); // Digita os 20 numeros;
                 vet[i] = int.Parse(Console.ReadLine());
 
                 if(i == vet.Length - 1) // se o i for igual ao vetor - 1; pede pra digitar mais um número;
